@@ -1,0 +1,27 @@
+root {
+    --primary-color: #6A44FF;
+
+    --secondary-color: #EE46BC;
+
+    --dark-bg: #0B0B15;
+
+    --card-bg: #1A1A29;
+
+    --text-color: #FFFFFF;
+    --text-muted: #B3B3B3;
+    --font-family: 'Outfit', sans-serif;
+    --gradient-main: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    --gradient-hero: linear-gradient(160deg, #7a44ff 0%, #ff4db8 45%, #ffd15c 100%);
+    --container-width: 1200px;
+    --transition: all 0.3s ease;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+        .inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
