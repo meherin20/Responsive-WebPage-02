@@ -74,7 +74,7 @@ img {
 .btn-subscribe {
     padding: 10px 22px;
     font-size: 14px;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.3px;
 }
 
 .btn-subscribe .arrow {
@@ -166,7 +166,7 @@ transition: var(--transition);
     .nav-links {
     position: fixed;
     top: 70px;
-    /* Below header */
+   
     left: -100%;
     width: 100%;
     height: calc(100vh - 70px);
@@ -359,14 +359,12 @@ font-size: 16px;
 margin-bottom: 15px;
 line-height: 1.8;
         }
-
-        .about-divider {
+.about-divider {
     height: 1px;
     background: rgba(255, 255, 255, 0.12);
     max-width: 780px;
     margin: 40px auto 30px;
 }
-
 
 .stats-grid {
     display: grid;
@@ -397,8 +395,7 @@ font-weight: 700;
 color: #17f7a5;
 margin-bottom: 5px;
 }
-
-        .stat-card p {
+ .stat-card p {
 color: #b8b3c9;
 font-size: 14px;
 text-transform: uppercase;
@@ -408,7 +405,8 @@ letter-spacing: 1px;
 
 
 @media (max-width: 992px) {
-        .hero-container {
+
+ .hero-container {
     flex-direction: column;
     text-align: center;
 }
@@ -452,7 +450,7 @@ font-size: 32px;
 
 
     .stat-card h3 {
-font-size: 28px;
+font-size: 25px;
     }
             }
 
